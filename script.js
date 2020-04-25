@@ -1,5 +1,6 @@
 
 var allTimeBlocks = ["9", "10", "11", "12", "1", "2", "3", "4", "5"];
+var now = moment();
 
 //Event listener to save event text on click of Save button
 $(".save-event").on("click", function() {
@@ -43,4 +44,15 @@ function loadSavedEvents() {
 
 }
 
+//Change color of time blocks based on what time it is right now
+
+function updateTimeBlockColors() {
+
+    console.log("moment - "+now);
+
+
+}
+
+
+updateTimeBlockColors();
 loadSavedEvents();
