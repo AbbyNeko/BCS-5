@@ -14,9 +14,9 @@
 }
 #event {
     display: block;
-    background-color: gray;
     height: 5em;
-    width:100%; 
+    width:100%;
+    color:white; 
     padding: 10px !important;
     border: white solid 2px !important;
     border-right:none !important;
