@@ -8,14 +8,18 @@
     margin-bottom: 3em;
 }
 
-#event, .col-10 {
+.col-10 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#event {
     display: block;
     background-color: gray;
     height: 5em;
-    width:100%;
-    border: white solid 1px;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+    width:100%; 
+    padding: 10px !important;
+    border: white solid 2px !important;
+    border-right:none !important;
 }
 
 .col-1 {
@@ -30,4 +34,7 @@ button {
     width: 100%;
     height:5em;
     margin: 0;
+    border-top: white solid 2px !important;
+    border-right: white solid 2px !important;
+    border-bottom: white solid 2px !important;
 }
