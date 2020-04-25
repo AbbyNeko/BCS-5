@@ -1,6 +1,6 @@
 
 var allTimeBlocks = ["9", "10", "11", "12", "1", "2", "3", "4", "5"];
-var now = moment();
+
 
 //Event listener to save event text on click of Save button
 $(".save-event").on("click", function() {
@@ -48,7 +48,10 @@ function loadSavedEvents() {
 
 function updateTimeBlockColors() {
 
-    console.log("moment - "+now);
+    //update div to show Todays Date
+    var dateString = moment().format("dddd, MMMM Do YYYY");
+    $(".day-display").text(dateString);
+    
 
 
 }
